@@ -10,7 +10,7 @@ public class MyPhoneGapActivity extends DroidGap {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		long startTme=System.currentTimeMillis();
-		super.loadUrl("file:///android_asset/www/index.html");
+		super.loadUrl("file:///android_asset/www/index2.html");
 		LOG.e("TIME", "loading page costs "+(System.currentTimeMillis()-startTme) +"milli.");
 	}
 }
